@@ -43,7 +43,7 @@ setup(
     packages=find_packages(),
 
     package_data={
-        'sre': [
+        'SRE': [
             'data/speaker_diarization/*',
         ],
     },
@@ -65,10 +65,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'prepare_spkspt_protocol.py=odessa.prepare_spkspt_protocol:main',
         ],
         'pyannote.database.databases': [
-            'SRE = sre.__init__:SRE',
+            'SRE = SRE.__init__:SRE',
         ],
     },
 

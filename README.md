@@ -13,7 +13,7 @@ $ cat ~/.pyannote/db.yml
 SRE: /path/to/sre/audio/original/{uri}.wav
 ```
 
-sre database has only Test set for all the protocols.
+SRE database has Dev set from SRE08 data and Test set from SRE10 data.
 
 ## Speaker diarization protocol
 
