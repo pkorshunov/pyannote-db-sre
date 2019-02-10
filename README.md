@@ -3,14 +3,16 @@
 ## Installation
 
 ```bash
-$ pip install pyannote.db.sre
+$ pip install pyannote.db.sre  # install from pip, or
+$ pip install -e .  # install a local copy
 ```
 
-Tell `pyannote` where to look for sre audio files.
+Tell `pyannote` where to look for NIST SRE audio files. 
+Note that both SRE08 and SRE10 databases should be located in the same foldder.
 
 ```bash
 $ cat ~/.pyannote/db.yml
-SRE: /path/to/sre/audio/original/{uri}.wav
+SRE: /path/to/nist_sre/{uri}.sph
 ```
 
 SRE database has Dev set from SRE08 data and Test set from SRE10 data.
@@ -23,7 +25,7 @@ Protocol is initialized as follows:
 ```python
 >>> from pyannote.database import get_protocol, FileFinder
 >>> preprocessors = {'audio': FileFinder()}
->>> protocol = get_protocol('sre.SpeakerDiarization.Fullset',
+>>> protocol = get_protocol('SRE.SpeakerDiarization.Fullset',
 ...                         preprocessors=preprocessors)
 ```
 
@@ -57,7 +59,7 @@ Protocol is initialized as follows:
 ```python
 >>> from pyannote.database import get_protocol, FileFinder
 >>> preprocessors = {'audio': FileFinder()}
->>> protocol = get_protocol('sre.SpeakerSpotting.Fullset',
+>>> protocol = get_protocol('SRE.SpeakerSpotting.Fullset',
 ...                         preprocessors=preprocessors)
 ```
 
