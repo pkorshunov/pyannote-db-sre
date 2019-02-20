@@ -67,7 +67,7 @@ setup(
         'console_scripts': [
         ],
         'pyannote.database.databases': [
-            'SRE = SRE.__init__:SRE',
+            'SRE = SRE:SRE',
         ],
     },
 

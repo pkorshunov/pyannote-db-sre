@@ -8,11 +8,17 @@ $ pip install -e .  # install a local copy
 ```
 
 Tell `pyannote` where to look for NIST SRE audio files. 
-Note that both SRE08 and SRE10 databases should be located in the same foldder.
+Note that SRE08 data, SRE10 data, and data used for training are probably located in different folders.
+So, the paths to the data may look like this:
 
 ```bash
 $ cat ~/.pyannote/db.yml
-SRE: /path/to/nist_sre/{uri}.sph
+SRE: 
+  - /path/to/nist_sre/SRE08/train/data/short2/{uri}.sph
+  - /path/to/nist_sre/SRE08/test/data/summed/{uri}.sph
+  - /path/to/nist_sre/SRE10/eval/data/phonecall/tel/{uri}.sp
+  - /path/to/nist_sre/SRE10/eval/data/summed/{uri}.sph
+  - /path/to/nist_sre/training_sets/{uri}.sph
 ```
 
 SRE database has Dev set from SRE08 data and Test set from SRE10 data.
