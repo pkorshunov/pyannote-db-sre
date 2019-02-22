@@ -122,24 +122,25 @@ class SpeakerDiarization(SpeakerDiarizationProtocol):
         AnnotatedGroups = annotated.groupby(by='uri')
         AnnotationGroups = annotation.groupby(by='uri')
 
+        samples_with_annotations = AnnotationGroups.groups.keys()
+
         for raw_uri, annotated in AnnotatedGroups:
-            # from raw_uri, construct correct path to the audio file
-            uri = raw_uri
-            if extend_uri is not None:
-                uriparts = raw_uri.split('/')
-                if uriparts[0] in extend_uri.keys():
-                    uri = os.path.join(uriparts[0], uriparts[1][:extend_uri[uriparts[0]]], uriparts[1])
-
-            segments = []
-            for segment in annotated.itertuples():
-                segments.append(Segment(start=segment.start, end=segment.end))
-
-            timeline = Timeline(uri=uri, segments=segments)
-            annotation = Annotation(uri=uri)
-
-            sample_names = AnnotationGroups.groups.keys()
             # process only those uris that we have inside annotations
-            if raw_uri in sample_names:
+            if raw_uri in samples_with_annotations:
+                # from raw_uri, construct correct path to the audio file
+                uri = raw_uri
+                if extend_uri is not None:
+                    uriparts = raw_uri.split('/')
+                    if uriparts[0] in extend_uri.keys():
+                        uri = os.path.join(uriparts[0], uriparts[1][:extend_uri[uriparts[0]]], uriparts[1])
+
+                segments = []
+                for segment in annotated.itertuples():
+                    segments.append(Segment(start=segment.start, end=segment.end))
+
+                timeline = Timeline(uri=uri, segments=segments)
+                annotation = Annotation(uri=uri)
+
                 for t, turn in enumerate(AnnotationGroups.get_group(raw_uri).itertuples()):
                     segment = timeline.extent()
                     annotation[segment, t] = turn.speaker
