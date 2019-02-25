@@ -39267,8 +39267,6 @@ mix05/jectA 1 0.000 299.952
 mix05/jectB 1 0.000 299.952
 mix05/jecuA 1 0.000 299.952
 mix05/jecuB 1 0.000 299.952
-mix05/jecvA 1 0.000 0.440
-mix05/jecvB 1 0.000 0.440
 mix05/jecxA 1 0.000 299.952
 mix05/jecxB 1 0.000 299.952
 mix05/jecyA 1 0.000 299.952
@@ -45331,8 +45329,6 @@ mix05/nanvA 1 0.000 299.952
 mix05/nanvB 1 0.000 299.952
 mix05/nanxA 1 0.000 299.952
 mix05/nanxB 1 0.000 299.952
-mix05/nanzA 1 0.000 0.290
-mix05/nanzB 1 0.000 0.290
 mix05/naoaA 1 0.000 51.130
 mix05/naoaB 1 0.000 51.130
 mix05/naobA 1 0.000 39.820
@@ -49576,8 +49572,6 @@ mix05/neckA 1 0.000 299.952
 mix05/neckB 1 0.000 299.952
 mix05/neclA 1 0.000 299.952
 mix05/neclB 1 0.000 299.952
-mix05/necmA 1 0.000 0.360
-mix05/necmB 1 0.000 0.360
 mix05/necoA 1 0.000 299.952
 mix05/necoB 1 0.000 299.952
 mix05/necpA 1 0.000 10.890
@@ -50723,8 +50717,6 @@ mix05/nfbwA 1 0.000 11.150
 mix05/nfbwB 1 0.000 11.150
 mix05/nfbxA 1 0.000 299.952
 mix05/nfbxB 1 0.000 299.952
-mix05/nfbzA 1 0.000 0.870
-mix05/nfbzB 1 0.000 0.870
 mix05/nfcaA 1 0.000 299.952
 mix05/nfcaB 1 0.000 299.952
 mix05/nfcbA 1 0.000 299.952
@@ -55874,8 +55866,6 @@ mix05/njobA 1 0.000 299.952
 mix05/njobB 1 0.000 299.952
 mix05/njocA 1 0.000 299.952
 mix05/njocB 1 0.000 299.952
-mix05/njodA 1 0.000 0.840
-mix05/njodB 1 0.000 0.840
 mix05/njoeA 1 0.000 299.952
 mix05/njoeB 1 0.000 299.952
 mix05/njofA 1 0.000 16.560
@@ -60641,8 +60631,6 @@ mix05/nnozA 1 0.000 299.952
 mix05/nnozB 1 0.000 299.952
 mix05/nnpaA 1 0.000 299.952
 mix05/nnpaB 1 0.000 299.952
-mix05/nnpbA 1 0.000 0.570
-mix05/nnpbB 1 0.000 0.570
 mix05/nnpcA 1 0.000 299.952
 mix05/nnpcB 1 0.000 299.952
 mix05/nnpeA 1 0.000 38.380
@@ -61621,8 +61609,6 @@ mix05/nokqA 1 0.000 16.590
 mix05/nokqB 1 0.000 16.590
 mix05/noksA 1 0.000 299.952
 mix05/noksB 1 0.000 299.952
-mix05/noktA 1 0.000 0.710
-mix05/noktB 1 0.000 0.710
 mix05/nokuA 1 0.000 299.952
 mix05/nokuB 1 0.000 299.952
 mix05/nokvA 1 0.000 299.952
@@ -61795,8 +61781,6 @@ mix05/nooyA 1 0.000 299.952
 mix05/nooyB 1 0.000 299.952
 mix05/noozA 1 0.000 299.952
 mix05/noozB 1 0.000 299.952
-mix05/nopbA 1 0.000 0.760
-mix05/nopbB 1 0.000 0.760
 mix05/nopcA 1 0.000 9.430
 mix05/nopcB 1 0.000 9.430
 mix05/nopdA 1 0.000 299.952
@@ -69703,7 +69687,6 @@ mix06/kbgrsA 1 0.000 300.000
 mix06/kbgtsA 1 0.000 300.000
 mix06/kbgvsA 1 0.000 300.000
 mix06/kbgwsA 1 0.000 300.000
-mix06/kbgzA 1 0.000 0.000
 mix06/kbhasA 1 0.000 300.000
 mix06/kbhesA 1 0.000 300.000
 mix06/kbhfsA 1 0.000 300.000
@@ -74900,7 +74883,6 @@ mix06/keyssA 1 0.000 299.952
 mix06/keytsA 1 0.000 299.952
 mix06/keyusA 1 0.000 299.952
 mix06/keyvsA 1 0.000 299.952
-mix06/keywsA 1 0.000 0.000
 mix06/keyxsA 1 0.000 299.952
 mix06/keyysA 1 0.000 299.952
 mix06/keyzsA 1 0.000 299.952
@@ -84001,8 +83983,6 @@ mix06/nokcA 1 0.000 14.730
 mix06/nokcB 1 0.000 14.730
 mix06/nokfA 1 0.000 299.952
 mix06/nokfB 1 0.000 299.952
-mix06/noktA 1 0.000 0.710
-mix06/noktB 1 0.000 0.710
 mix06/nokwA 1 0.000 299.952
 mix06/nokwB 1 0.000 299.952
 mix06/nokyA 1 0.000 299.952
@@ -84087,8 +84067,6 @@ mix06/nootA 1 0.000 15.790
 mix06/nootB 1 0.000 15.790
 mix06/noovA 1 0.000 9.660
 mix06/noovB 1 0.000 9.660
-mix06/nopbA 1 0.000 0.760
-mix06/nopbB 1 0.000 0.760
 mix06/nopcA 1 0.000 9.430
 mix06/nopcB 1 0.000 9.430
 mix06/nopgA 1 0.000 299.952
